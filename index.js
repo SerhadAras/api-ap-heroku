@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://herokuapp47.herokuapp.com/'
+        origin: 'https://pedantic-goodall-e432e3.netlify.app/'
     })
 );
 app.options('*', cors());
