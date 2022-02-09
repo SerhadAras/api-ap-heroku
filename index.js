@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: '*'
+        origin: 'https://herokuapp47.herokuapp.com/'
     })
 );
 app.options('*', cors());
